@@ -14,7 +14,10 @@
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="mb-2 mb-lg-0 ms-auto navbar-nav">
                                     <li class="nav-item">
-                                        <router-link to="/" class="nav-link fw-bold text-uppercase active" aria-current="page" >Home</router-link>
+                                        <router-link to="/" class="nav-link fw-bold text-uppercase" aria-current="page" >Home</router-link>
+                                    </li>
+                                    <li class="nav-item">
+                                        <router-link to="/about" class="nav-link fw-bold text-uppercase" aria-current="page" >About</router-link>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link fw-bold text-uppercase" href="#">Contact Us</a>

@@ -4,6 +4,7 @@ import Layout from "../views/Layout";
 import Home from '../views/Home.vue'
 import View from '../views/pages/View'
 import Edit from '../views/pages/Edit'
+import About from '../views/About'
 
 Vue.use(VueRouter)
 
@@ -44,6 +45,14 @@ const routes = [
           title:'user edit'
         }
       },
+      {
+        path: '/about',
+        name: 'about',
+        component: About,
+        meta:{
+          title: 'About Page'
+        }
+      }
     ]
   }
 ]

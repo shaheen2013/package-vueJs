@@ -6,3 +6,8 @@ $fa-font-path : "~@fortawesome/fontawesome-free/webfonts";
 @import '~@fortawesome/fontawesome-free/scss/brands.scss';
 @import '~@fortawesome/fontawesome-free/scss/regular';
 @import '~@fortawesome/fontawesome-free/scss/v4-shims';
+
+
+.router-link-exact-active{
+   color: rgba(0, 0, 0, 0.9)!important;
+}
