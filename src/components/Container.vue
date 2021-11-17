@@ -1,8 +1,10 @@
 <template>
     <div class="container">
         <div class="row">
-            <slot>
-            </slot>
+            <slot name="header"></slot>
+            <slot name="body"></slot>
+            <slot name="footer"></slot>
+            <slot><h1>sdjflksdjfl</h1></slot>
         </div>
     </div>
 </template>

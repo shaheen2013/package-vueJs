@@ -5,8 +5,9 @@
                 <h2>Slot Component</h2>
                 <action-btn to_name="home" title="Home" :cName="className"></action-btn>
                 <action-btn to_name="view" title="User View" :cName="'btn-warning'"></action-btn>
-
             </div>
+            
+            <template #header><h1>Header</h1></template>
         </container>
     </div>
 </template>
